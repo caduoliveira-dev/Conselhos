@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sono', sans-serif;
+}
+
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3px 8px;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: auto;
+}
+
+#corpo p{
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.botao{
+    text-align: center;
+}
+.botao #pesquisar{
+    padding: 0.5rem;
+    min-width: 150px;
+    border-radius: 4px;
+    background-color: #1f1c1c;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
